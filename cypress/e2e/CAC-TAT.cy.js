@@ -10,7 +10,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
     cy.get('[name="firstName"]').type('nome')
     cy.get('[name="lastName"]').type('sobrenome')
     cy.get('[name="phone"').type('519999999')
-    cy.get('[name="teste')
+    cy.get('[name="email').type('email')
     
   })
 })
